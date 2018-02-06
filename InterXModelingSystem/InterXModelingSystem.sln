@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5256E44-4607-4A32-AA3A-D67726DF9819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{70982C5F-8BA0-4512-A68C-9AE71382BB45}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InterXModelingSystem", "src\InterXModelingSystem\InterXModelingSystem.xproj", "{FACD35BA-3418-4539-97C0-9C1299FB0DC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterXWebAPI", "InterXWebAPI", "{A40111C1-95BE-4D44-AF7E-BBC8578CB146}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IXM.InterXWebAPI", "IXM.InterXWebAPI\IXM.InterXWebAPI.xproj", "{D5A3FA87-E9D9-4ACC-8FD6-D474A69394FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACD35BA-3418-4539-97C0-9C1299FB0DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACD35BA-3418-4539-97C0-9C1299FB0DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACD35BA-3418-4539-97C0-9C1299FB0DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACD35BA-3418-4539-97C0-9C1299FB0DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A3FA87-E9D9-4ACC-8FD6-D474A69394FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A3FA87-E9D9-4ACC-8FD6-D474A69394FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A3FA87-E9D9-4ACC-8FD6-D474A69394FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A3FA87-E9D9-4ACC-8FD6-D474A69394FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FACD35BA-3418-4539-97C0-9C1299FB0DC9} = {C5256E44-4607-4A32-AA3A-D67726DF9819}
+		{D5A3FA87-E9D9-4ACC-8FD6-D474A69394FA} = {A40111C1-95BE-4D44-AF7E-BBC8578CB146}
+	EndGlobalSection
+EndGlobal
